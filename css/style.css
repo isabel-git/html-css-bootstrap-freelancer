@@ -8,22 +8,49 @@
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
-  background-color: pink;
+  /* background-color: pink; */
   border: solid 1px  #000;
   padding: 2px;
 }
 
 [class*="col-"] > .row > [class*="col-"] {
-  background-color: salmon;
+  /* background-color: salmon; */
   border-color:#fff;
 }
+/* fine debug */
 
-/* header, main > section, footer{
-  padding: 60px;
+
+/* intestazione */
+/* navigazione */
+#nav-large {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 900;
 }
 
-main > section{
-  background: lightblue;
-  border: 1px solid black;
-} */
-/* fine debug */
+#nav-mobile {
+  display: none;
+}
+
+/* background */
+nav, footer .bottom{
+  background-color: #1a252f;
+}
+
+header section, main .center{
+  background-color: #1abc9c;
+}
+
+header section{
+  text-align: center;
+}
+
+/* corpo della pagina */
+
+
+/* footer */
+footer .top{
+  background-color: #2c3e50;
+}
