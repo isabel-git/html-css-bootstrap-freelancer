@@ -5,11 +5,30 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  color: white;
+}
+
+h1, h2, h3{
+  margin: 0;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+
+img{
+  width: 200px;
+}
+
+
 /* regole di debug */
 [class*="col-"] {
   min-height: 100px;
   /* background-color: pink; */
-  border: solid 1px  #000;
+  /* border: solid 1px  #000; */
   padding: 2px;
 }
 
@@ -21,6 +40,9 @@
 
 
 /* intestazione */
+header{
+  color: white;
+}
 /* navigazione */
 #nav-large {
   position: fixed;
@@ -30,12 +52,23 @@
   z-index: 900;
 }
 
-#nav-mobile {
+#hamburgher {
   display: none;
 }
 
+.logo, #menu-nav{
+  padding: 40px 0;
+}
+
+nav a{
+  margin-left: 10px;
+}
+
+
 header section{
   margin-top: 100px;
+  min-height: 400px;
+  padding-top: 100px;
 }
 
 /* background */
@@ -52,9 +85,112 @@ header section{
 }
 
 /* corpo della pagina */
+.padding{
+  padding: 50px 0;
+}
 
+main .top{
+  text-align: center;
+}
+
+/* primo section */
+.title{
+  text-align: center;
+  /* font-weight: 10px; */
+}
+
+.title.one, .title.tre{
+  color:  #2c3e50;
+
+}
+
+.title i{
+  font-size: 20px;
+}
+
+main .top img{
+  border-radius: 10px;
+  width: 250px;
+}
+
+form input, textarea{
+  display: block;
+  border: none;
+  width: 100%;
+  border-bottom: 1px solid black;
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+/* secondo section */
+main .center{
+  color: white;
+}
+
+a.button{
+  background-color: #1abc9c;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+a.button.w{
+  border: 1px solid white;
+}
+
+#download{
+  text-align: center;
+}
 
 /* footer */
+footer{
+  text-align: center;
+  color: white;
+}
+
 footer .top{
   background-color: #2c3e50;
 }
+
+#blue-link{
+  color: #1abc9c;
+}
+
+.social i{
+  height: 50px;
+  width: 50px;
+  font-size: 15px;
+  line-height: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.social a{
+}
+
+/* bottom section */
+
+#copyright{
+  padding: 45px 0;
+  min-height: 100px;
+  font-size: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #menu-nav {
+    display: none;
+  }
+
+ #hamburgher {
+   display: block;
+   padding: 33px 0;
+  }
+
+  #hamburgher div{
+    width: 35px;
+    height: 6px;
+    background-color: white;
+    margin: 6px 0;
+  }
+
+{
