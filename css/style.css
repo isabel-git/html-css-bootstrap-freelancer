@@ -34,6 +34,10 @@
   display: none;
 }
 
+header section{
+  margin-top: 100px;
+}
+
 /* background */
 nav, footer .bottom{
   background-color: #1a252f;
