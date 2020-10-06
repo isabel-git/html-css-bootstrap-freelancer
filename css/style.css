@@ -40,8 +40,8 @@ img{
 
 
 /* intestazione */
-header{
-  /* color: white; */
+header {
+  color: white;
 }
 /* navigazione */
 .navbar.navbar-default {
@@ -50,7 +50,10 @@ header{
   left: 0;
   width: 100%;
   z-index: 900;
+  border: none;
 }
+
+.navbar-default
 
 #hamburgher {
   display: none;
@@ -68,7 +71,7 @@ header section{
 }
 
 /* background */
-nav, footer .bottom{
+.navbar.navbar-default, footer .bottom{
   background-color: #1a252f;
 }
 
