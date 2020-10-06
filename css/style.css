@@ -41,10 +41,10 @@ img{
 
 /* intestazione */
 header{
-  color: white;
+  /* color: white; */
 }
 /* navigazione */
-#nav-large {
+.navbar.navbar-default {
   position: fixed;
   top: 0;
   left: 0;
@@ -56,17 +56,13 @@ header{
   display: none;
 }
 
-.logo, #menu-nav{
-  padding: 40px 0;
-}
-
 nav a{
   margin-left: 10px;
 }
 
 
 header section{
-  margin-top: 100px;
+  margin-top: 50px;
   min-height: 400px;
   padding-top: 100px;
 }
@@ -174,23 +170,3 @@ footer .top{
   min-height: 100px;
   font-size: 10px;
 }
-
-@media only screen and (max-width: 768px) {
-
-  #menu-nav {
-    display: none;
-  }
-
- #hamburgher {
-   display: block;
-   padding: 33px 0;
-  }
-
-  #hamburgher div{
-    width: 35px;
-    height: 6px;
-    background-color: white;
-    margin: 6px 0;
-  }
-
-{
